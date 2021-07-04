@@ -96,7 +96,9 @@ This is the third argument in ***cv.findContours*** function.
 
 If we pass **cv.CHAIN_APPROX_NONE** , all the boundary points are stored. But sometimes, we dont really need all the boundary points. For example, if we want to represent a line, we only need the first and last point. This is what **cv.CHAIN_APPROX_SIMPLE** does. It removes all the redundant points, thus saving memory.
 
-## Contour-area
+
+
+# Contour-area
 
 ### 1- Moments
 
