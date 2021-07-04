@@ -98,7 +98,7 @@ If we pass **cv.CHAIN_APPROX_NONE** , all the boundary points are stored. But so
 
 
 
-# Contour-area
+# Contour-features
 
 ### 1- Moments
 
@@ -230,8 +230,9 @@ center = (int(x),int(y))
 radius = int(radius)
 cv.circle(img,center,radius,(0,255,0),2)
 ````
+![circumcircle](https://user-images.githubusercontent.com/78999231/124383683-61225f80-dceb-11eb-94f3-8d28c46f3ca4.png)
 
-![circumcircle image](Downloads/circumcircle.png)
+
 
 ### 9- Fitting an Ellipse
 
@@ -248,6 +249,8 @@ cv.ellipse(img,ellipse,(0,255,0),2)
 ### 10- Fitting a Line
 
 Similarly we can fit a line to a set of points. Below image contains a set of white points. We can approximate a straight line to it.
+
+![fitline](https://user-images.githubusercontent.com/78999231/124383669-4e0f8f80-dceb-11eb-81cf-ed9a9b3c17ce.jpg)
 
 
 # SOME IMPORTANT CONTOUR PROPERTIES
