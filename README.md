@@ -271,7 +271,7 @@ Following is the code snippet for finding the aspect ratio in Python
 
 Various examples of the different values of aspect ratios are shown in the figure below:
 
-![image-20210704133107591](images/WhatsApp Image 2021-07-04 at 16.50.57.jpeg)
+![image-20210704133107591](images/aspratio.jpeg)
 
 ### 2. Extent
 
@@ -355,7 +355,7 @@ We can also find the extreme points from an image i.e. topmost, bottommost, righ
 
 The following image shows the extreme points located:
 
-![image-20210704143101619](images/WhatsApp Image 2021-07-04 at 16.51.28.jpeg)
+![image-20210704143101619](images/edgepoints.jpeg)
 
 ```python
 rows,cols = img.shape[:2]
@@ -365,5 +365,4 @@ righty = int(((cols-x)*vy/vx)+y)
 cv.line(img,(cols-1,righty),(0,lefty),(0,255,0),2)
 ```
 
-![fitline](https://user-images.githubusercontent.com/78999231/124376929-e9423e00-dcc6-11eb-9da1-01bb4b6fa831.jpg)
 
