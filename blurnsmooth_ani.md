@@ -2,7 +2,7 @@
 
 **Averaging** method is implemented by convolving the image with a normalized box filter. It takes the average of all the pixels under the kernel area and places the average at the place of central element. The kernel i.e. the box filter looks something like this:
 
-![](C:\Users\rohek\Downloads\averagefilter.jpg)
+![](images\averagefilter.jpg)
 
 where kwidth and kheight are 2d dimensions of kernel.
 
@@ -30,7 +30,7 @@ where
 
 Let's try this on an example image
 
-<img src="C:\Users\rohek\Downloads\download.png" alt="download" style="zoom: 80%;" />
+<img src="images\download.png" alt="download" style="zoom: 80%;" />
 
 ```python
 import cv2
@@ -45,11 +45,11 @@ cv2.imshow(image)
 
 Output:
 
-<img src="C:\Users\rohek\Downloads\download (3).png" alt="download (1)" style="zoom: 80%;" />
+<img src="images\download (3).png" alt="download (1)" style="zoom: 80%;" />
 
 if we increase our size of kernel, our image gets more blurry. lets try `ksize=(15,15)`, we get the image like 
 
-<img src="C:\Users\rohek\Downloads\download (2).png" alt="download (2)" style="zoom: 80%;" />
+<img src="images\download (2).png" alt="download (2)" style="zoom: 80%;" />
 
 ### Gaussian Blurring
 
@@ -80,4 +80,4 @@ blur = cv2.GaussianBlur(image,(9,9),0)
 cv2.imshow(blur)
 ```
 
-<img src="C:\Users\rohek\Downloads\download (4).png" alt="download (4)" style="zoom: 80%;" />
+<img src="images\download (4).png" alt="download (4)" style="zoom: 80%;" />
