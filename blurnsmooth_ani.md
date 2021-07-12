@@ -3,7 +3,7 @@
 **Averaging** method is implemented by convolving the image with a normalized box filter. It takes the average of all the pixels under the kernel area and places the average at the place of central element. The kernel i.e. the box filter looks something like this:
 
 
-$$k = 1/(kwidth*kheight)\begin{bmatrix}1 & 1 & \cdots & 1 \\1 & 1 & \cdots & 1 \\ \vdots & \vdots & \ddots & \vdots \\1 & 1 & \cdots & 1\end{bmatrix}$$
+$$ k = 1/(kwidth*kheight)\begin{bmatrix}1 & 1 & \cdots & 1 \\1 & 1 & \cdots & 1 \\ \vdots & \vdots & \ddots & \vdots \\1 & 1 & \cdots & 1\end{bmatrix} $$
 where kwidth and kheight are 2d dimensions of kernel.
 
 Averaging can be implemented using some of the useful *OpenCV* functions like **cv2.blur()** or **cv2.boxFilter()**.
