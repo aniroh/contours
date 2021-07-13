@@ -112,6 +112,7 @@ median = cv.medianBlur(img,5)
 ```
 
 Result:
+
 <img src="https://user-images.githubusercontent.com/78999231/125387969-512a1000-e3bc-11eb-8a8e-40d680a6ced1.jpeg" alt="original" style="zoom: 80%;" />
 <img src="https://user-images.githubusercontent.com/78999231/125388271-da414700-e3bc-11eb-9ecf-6fa8a918867f.jpg" alt="medianblur" style="zoom: 80%;" />
 
@@ -124,6 +125,7 @@ blur = cv.bilateralFilter(img,9,75,75)
 ```
 
 Result:
+
 <img src="https://user-images.githubusercontent.com/78999231/125387969-512a1000-e3bc-11eb-8a8e-40d680a6ced1.jpeg" alt="original" style="zoom: 80%;" />
 <img src="https://user-images.githubusercontent.com/78999231/125388740-aca8cd80-e3bd-11eb-89b6-2777eeb5099b.png" alt="bliateralblur" style="zoom: 80%;" />
 
