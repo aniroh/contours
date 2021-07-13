@@ -19,7 +19,7 @@ Blurring (smoothing) can be achieved using these four OpenCV methods:
 
 **Averaging** method is implemented by convolving the image with a normalized box filter. It takes the average of all the pixels under the kernel area and places the average at the place of central element. The kernel i.e. the box filter looks something like this:
 
-![](images\averagefilter.jpg)
+![](images/averagefilter.jpg)
 
 where kwidth and kheight are 2d dimensions of kernel.
 
